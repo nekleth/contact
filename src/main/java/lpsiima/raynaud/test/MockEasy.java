@@ -1,4 +1,4 @@
-package LPS2IMA.Raynaud.test;
+package lpsiima.raynaud.test;
 
 import org.easymock.EasyMockSupport;
 import org.easymock.EasyMockRule;

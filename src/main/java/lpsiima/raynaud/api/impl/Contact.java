@@ -1,4 +1,4 @@
-package LPS2IMA.Raynaud.api.impl;
+package lpsiima.raynaud.api.impl;
 
 public class Contact {
 	private String name ;

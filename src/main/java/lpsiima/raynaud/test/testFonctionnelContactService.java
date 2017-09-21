@@ -1,26 +1,27 @@
-package LPS2IMA.Raynaud.test;
+package lpsiima.raynaud.test;
 import static org.junit.Assert.*;
 
 import org.junit.Before;
 import org.junit.Test;
 
-import LPS2IMA.Raynaud.api.impl.ContactService;
+import lpsiima.raynaud.api.impl.ContactService;
 
 public class testFonctionnelContactService {
-	private ContactService service ; 
+	private ContactService service ;
+	private static final String CTE = "0200000000";
 	@Before
 	public void setUp() {
 		service = new ContactService() ;
 	}
 	@Test
 	public void testCreerContactWithCorrectParameter() {
-		service.creerContact("ALbert","0200000000");
+		service.creerContact("ALbert", CTE);
 		assertTrue(true);
 	}
 	
 	@Test (expected = IllegalArgumentException.class)
 	public void testCreerContactWithNameLengthUnderThree() {
-		service.creerContact("AL","0200000000");
+		service.creerContact("AL", CTE);
 	}
 	
 	@Test (expected = IllegalArgumentException.class)

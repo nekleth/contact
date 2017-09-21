@@ -1,4 +1,4 @@
-package LPS2IMA.Raynaud.test;
+package lpsiima.raynaud.test;
 
 import static org.junit.Assert.*;
 
@@ -8,9 +8,9 @@ import org.easymock.Mock;
 import org.easymock.TestSubject;
 import org.junit.Test;
 
-import LPS2IMA.Raynaud.api.IContactDAO;
-import LPS2IMA.Raynaud.api.impl.Contact;
-import LPS2IMA.Raynaud.api.impl.ContactService;
+import lpsiima.raynaud.api.IContactDAO;
+import lpsiima.raynaud.api.impl.Contact;
+import lpsiima.raynaud.api.impl.ContactService;
 
 public class MockFailTest extends MockEasy {
 

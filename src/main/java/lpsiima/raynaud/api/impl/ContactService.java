@@ -1,6 +1,6 @@
-package LPS2IMA.Raynaud.api.impl;
+package lpsiima.raynaud.api.impl;
 
-import LPS2IMA.Raynaud.api.IContactDAO;
+import lpsiima.raynaud.api.IContactDAO;
 
 public class ContactService {
 	

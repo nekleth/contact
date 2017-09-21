@@ -1,9 +1,9 @@
-package LPS2IMA.Raynaud.api.impl;
+package lpsiima.raynaud.api.impl;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import LPS2IMA.Raynaud.api.IContactDAO;
+import lpsiima.raynaud.api.IContactDAO;
 
 public class ContactDAOImpl implements IContactDAO{
 	private List<Contact> contacts = new ArrayList<Contact>() ;	
